@@ -3,7 +3,7 @@ import Location from '@/Icons/Location'
 
 const ProfileHeader = () => {
   return (
-    <div className="max-w-[40%]">
+    <div className="w-[50%] px-8">
       <div className="mb-4">
         <div className="mb-3">
           <p className="text-4xl">
