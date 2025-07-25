@@ -3,17 +3,19 @@ import Location from '@/Icons/Location'
 
 const ProfileHeader = () => {
   return (
-    <div className="w-[50%] px-8">
-      <div className="mb-4">
-        <div className="mb-3">
+    <div className="px-8">
+      <div>
+        <div className="mb-6">
           <p className="text-4xl">
-            <strong>Pratik Dhungel</strong>
+            <strong className="border-b-2 pb-2">Pratik Dhungel</strong>
           </p>
         </div>
 
-        <p>
-          <strong className="text-xl">Senior Software Engineer</strong>
-        </p>
+        <div className="mb-4">
+          <p>
+            <strong className="text-xl">Senior Software Engineer</strong>
+          </p>
+        </div>
       </div>
 
       <div className="mb-4">

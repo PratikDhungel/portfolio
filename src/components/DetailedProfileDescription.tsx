@@ -1,4 +1,3 @@
-import React from 'react'
 import ProfileDescription from './ProfileDescription'
 
 const DetailedProfileDescription = () => {

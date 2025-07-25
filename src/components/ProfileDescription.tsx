@@ -1,10 +1,8 @@
-import React from 'react'
-
 const ProfileDescription = () => {
   return (
     <div>
       <p className="text-2xl mb-4">
-        <strong>Bio</strong>
+        <strong className="border-b-2 pb-2">Bio</strong>
       </p>
 
       <p className="mb-4">
