@@ -14,7 +14,10 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: 'Pratik Dhungel',
-  description: 'Portfolio of Pratik Dhungel, Software Engineer from Kathmandu, Nepal',
+  description: 'Portfolio of Pratik Dhungel, Senior Software Engineer from Kathmandu, Nepal',
+  icons: {
+    icon: '/favicon.svg',
+  },
 }
 
 export default function RootLayout({
