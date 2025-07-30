@@ -1,6 +1,7 @@
 import GitHub from '@/Icons/GitHub'
 import LinkedIn from '@/Icons/LinkedIn'
 import Location from '@/Icons/Location'
+import SkillsAndTools from './SkillsAndTools'
 
 const ProfileHeader = () => {
   return (
@@ -35,12 +36,14 @@ const ProfileHeader = () => {
         </a>
       </div>
 
-      <div className="flex items-center gap-2">
+      <div className="flex items-center gap-2 mb-8">
         <LinkedIn className="w-6 h-6" />
         <a target="_blank" href="https://www.linkedin.com/in/real-pratik-dhungel" className="hover:underline">
           https://www.linkedin.com/in/real-pratik-dhungel
         </a>
       </div>
+
+      <SkillsAndTools />
     </div>
   )
 }
