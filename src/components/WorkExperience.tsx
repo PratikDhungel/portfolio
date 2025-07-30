@@ -1,3 +1,14 @@
+import workExperienceData from '@/data/workexperience.json'
+
+interface IWorkExperience {
+  id: number
+  title: string
+  company: string
+  start: string
+  end: string
+  work: string[]
+}
+
 const WorkExperience = () => {
   return (
     <div>
@@ -7,25 +18,36 @@ const WorkExperience = () => {
         </p>
       </div>
 
+      {workExperienceData.map((eachExperience) => {
+        return <WorkExperienceBlock data={eachExperience} key={eachExperience.id} />
+      })}
+    </div>
+  )
+}
+
+const WorkExperienceBlock = ({ data }: { data: IWorkExperience }) => {
+  const { title, company, start, end, work } = data
+
+  const workDuration = `(${start} - ${end})`
+
+  return (
+    <div className="mb-8">
       <div>
+        <p className="text-xl mb-1">
+          <strong>{title}</strong>
+        </p>
+        <p className="text-xl">
+          <strong>{company}</strong>
+        </p>
+
+        <p className="text-sm mb-2">{workDuration}</p>
+
         <div>
-          <p className="text-xl mb-1">
-            <strong>Frontend Engineer</strong>
-          </p>
-          <p className="text-xl">
-            <strong>Returnalyze</strong>
-          </p>
-
-          <p className="text-sm mb-2">(Feb 2024 - Jan 2025)</p>
-
-          <div>
-            <ul className="list-disc list-inside ml-1">
-              <li className="text-sm">
-                Designed interactive charts using React (with React Highcharts) for a returns analytics platform which
-                empowers brands to reduce return rates, lower operational costs and uncover hidden revenue opportunities
-              </li>
-            </ul>
-          </div>
+          <ul className="list-disc list-inside ml-1">
+            {work.map((eachWork, idx) => {
+              return <li key={idx}>{eachWork}</li>
+            })}
+          </ul>
         </div>
       </div>
     </div>

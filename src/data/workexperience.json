@@ -1,0 +1,59 @@
+[
+  {
+    "id": 1,
+    "title": "Senior Frontend Engineer",
+    "company": "Returnalyze/Boston",
+    "start": "Feb 2024",
+    "end": "Jan 2025",
+    "work": [
+      "Designed interactive charts using React (with React Highcharts) for a returns analytics platform which empowers brands to reduce return rates, lower operational costs and uncover hidden revenue opportunities"
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Frontend Engineer",
+    "company": "Zegal/Hong Kong",
+    "start": "Jan 2023",
+    "end": "Feb 2024",
+    "work": [
+      "Iterative work on existing Zegal platform which provides an automated and online solution to legal documents and contracts through the use of questionnaires, document editor and signatures",
+      "Deliver high quality code as UI feature and maintain existing mono-repo codebase branching out as multiple applications under the Zegal banner"
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Frontend Engineer",
+    "company": "Gurzu Inc/Nepal",
+    "start": "June 2021",
+    "end": "Jan 2023",
+    "work": [
+      "Build reusable components and UI features using ReactJS",
+      "Develop responsive user interface components, monitoring and improving front-end performance",
+      "Involvement across multiple live projects translating business requirements into designs, wireframes and high quality code"
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Software Engineer - Quality Assurance",
+    "company": "IdenTV LLC/Nepal",
+    "start": "Sep 2020",
+    "end": "June 2021",
+    "work": [
+      "Maintain quality of software and efficiency of recursive UI and API tests using automated tools like Cypress and Postman respectively",
+      "Generate data to test Recommendations and Detections system based on Machine Learning algorithms"
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Software Engineer - Quality Assurance",
+    "company": "Leapfrog Technology/Nepal",
+    "start": "August 2018",
+    "end": "Sep 2020",
+    "work": [
+      "Maintain quality of the software by planning and coordinating various quality testing activities",
+      "Maintain efficiency of recursive tests using automated tools such as Katalon Studio and Robot Framework",
+      "Evaluate application behavior and performance using load testing",
+      "Coordinated software development under an agile team following frameworks of Scrum and Kanban"
+    ]
+  }
+]

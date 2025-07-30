@@ -6,10 +6,10 @@ import ProfileDescription from '@/components/ProfileDescription'
 
 export default function Home() {
   return (
-    <div className="flex overflow-y-auto py-16">
+    <div className="flex py-16">
       <ProfileHeader />
 
-      <div className="px-8">
+      <div className="px-8 overflow-y-scroll h-[calc(100vh-64px)]">
         <div className="mb-8">
           <ProfileDescription />
 
