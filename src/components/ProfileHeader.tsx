@@ -3,7 +3,7 @@ import Location from '@/Icons/Location'
 
 const ProfileHeader = () => {
   return (
-    <div className="px-8">
+    <div className="px-8 w-[30%] flex-shrink-0">
       <div>
         <div className="mb-6">
           <p className="text-4xl">
