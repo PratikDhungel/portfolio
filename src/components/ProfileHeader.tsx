@@ -1,4 +1,5 @@
 import GitHub from '@/Icons/GitHub'
+import LinkedIn from '@/Icons/LinkedIn'
 import Location from '@/Icons/Location'
 
 const ProfileHeader = () => {
@@ -27,10 +28,17 @@ const ProfileHeader = () => {
         Kathmandu, Nepal
       </div>
 
-      <div className="flex items-center gap-2">
+      <div className="flex items-center gap-2 mb-4">
         <GitHub className="w-6 h-6" />
         <a target="_blank" href="https://github.com/PratikDhungel" className="hover:underline">
           https://github.com/PratikDhungel
+        </a>
+      </div>
+
+      <div className="flex items-center gap-2">
+        <LinkedIn className="w-6 h-6" />
+        <a target="_blank" href="https://www.linkedin.com/in/real-pratik-dhungel" className="hover:underline">
+          https://www.linkedin.com/in/real-pratik-dhungel
         </a>
       </div>
     </div>
