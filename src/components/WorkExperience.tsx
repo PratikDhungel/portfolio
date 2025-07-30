@@ -18,9 +18,11 @@ const WorkExperience = () => {
         </p>
       </div>
 
-      {workExperienceData.map((eachExperience) => {
-        return <WorkExperienceBlock data={eachExperience} key={eachExperience.id} />
-      })}
+      <div className="overflow-y-scroll h-[calc(100vh-360px)] custom-scroll">
+        {workExperienceData.map((eachExperience) => {
+          return <WorkExperienceBlock data={eachExperience} key={eachExperience.id} />
+        })}
+      </div>
     </div>
   )
 }
