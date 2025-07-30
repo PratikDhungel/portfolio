@@ -9,7 +9,7 @@ export default function Home() {
     <div className="flex py-16">
       <ProfileHeader />
 
-      <div className="px-8 overflow-y-scroll h-[calc(100vh-64px)]">
+      <div className="px-8 overflow-y-scroll h-[calc(100vh-64px)] custom-scroll">
         <div className="mb-8">
           <ProfileDescription />
 
